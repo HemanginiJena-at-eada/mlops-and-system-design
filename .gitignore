@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#ignore ml files
+C:\Users\sudhi\Downloads\MLOps\Session 1_ML\mlops-and-system-design\mlartifacts
+C:\Users\sudhi\Downloads\MLOps\Session 1_ML\mlops-and-system-design\mlruns

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/936433837013368058/abaac038f799426cb7f719d8a456beb0/artifacts
+deleted_time: 1779199674836
+end_time: 1779199348418
+entry_point_name: ''
+experiment_id: '936433837013368058'
+lifecycle_stage: deleted
+run_id: abaac038f799426cb7f719d8a456beb0
+run_name: useful-snail-852
+run_uuid: abaac038f799426cb7f719d8a456beb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779199348305
+status: 4
+tags: []
+user_id: sudhi
