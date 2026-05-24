@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/620655698695980500/def34eaaa4c24c74897448a72d61c5b1/artifacts
+end_time: 1779645824204
+entry_point_name: ''
+experiment_id: '620655698695980500'
+lifecycle_stage: active
+run_id: def34eaaa4c24c74897448a72d61c5b1
+run_name: capricious-finch-551
+run_uuid: def34eaaa4c24c74897448a72d61c5b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779645816221
+status: 3
+tags: []
+user_id: sudhi

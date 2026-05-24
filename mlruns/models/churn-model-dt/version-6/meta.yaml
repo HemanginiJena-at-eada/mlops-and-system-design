@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1779641017072
+current_stage: None
+description: ''
+last_updated_timestamp: 1779641017072
+name: churn-model-dt
+run_id: 923bb7b7e3354f45a09e646d194448ba
+run_link: ''
+source: mlflow-artifacts:/658896502001904195/923bb7b7e3354f45a09e646d194448ba/artifacts/decision_tree_bank_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/658896502001904195/923bb7b7e3354f45a09e646d194448ba/artifacts/decision_tree_bank_model
+user_id: null
+version: 6

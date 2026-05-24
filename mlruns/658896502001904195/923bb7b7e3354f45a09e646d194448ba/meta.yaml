@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/658896502001904195/923bb7b7e3354f45a09e646d194448ba/artifacts
+deleted_time: 1779644220644
+end_time: 1779641017109
+entry_point_name: ''
+experiment_id: '658896502001904195'
+lifecycle_stage: deleted
+run_id: 923bb7b7e3354f45a09e646d194448ba
+run_name: auspicious-cub-619
+run_uuid: 923bb7b7e3354f45a09e646d194448ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779641008158
+status: 3
+tags: []
+user_id: sudhi

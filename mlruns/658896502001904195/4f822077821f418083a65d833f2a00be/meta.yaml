@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/658896502001904195/4f822077821f418083a65d833f2a00be/artifacts
+end_time: 1779645448343
+entry_point_name: ''
+experiment_id: '658896502001904195'
+lifecycle_stage: active
+run_id: 4f822077821f418083a65d833f2a00be
+run_name: delightful-ram-618
+run_uuid: 4f822077821f418083a65d833f2a00be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779645440950
+status: 3
+tags: []
+user_id: sudhi

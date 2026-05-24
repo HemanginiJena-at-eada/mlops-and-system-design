@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/658896502001904195/25b753bcbe6942dd891ac1a1c2587821/artifacts
+deleted_time: 1779645762817
+end_time: 1779644196130
+entry_point_name: ''
+experiment_id: '658896502001904195'
+lifecycle_stage: deleted
+run_id: 25b753bcbe6942dd891ac1a1c2587821
+run_name: treasured-pig-820
+run_uuid: 25b753bcbe6942dd891ac1a1c2587821
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779644187504
+status: 3
+tags: []
+user_id: sudhi

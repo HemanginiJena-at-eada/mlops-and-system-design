@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/658896502001904195/5a051008fbe546f5bd02b6e4c30e132d/artifacts
+deleted_time: 1779644220641
 end_time: 1779617736366
 entry_point_name: ''
 experiment_id: '658896502001904195'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5a051008fbe546f5bd02b6e4c30e132d
 run_name: upbeat-lamb-247
 run_uuid: 5a051008fbe546f5bd02b6e4c30e132d

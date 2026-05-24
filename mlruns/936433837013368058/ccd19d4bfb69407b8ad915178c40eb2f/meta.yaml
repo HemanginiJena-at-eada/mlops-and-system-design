@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/936433837013368058/ccd19d4bfb69407b8ad915178c40eb2f/artifacts
+end_time: 1779643730695
+entry_point_name: ''
+experiment_id: '936433837013368058'
+lifecycle_stage: active
+run_id: ccd19d4bfb69407b8ad915178c40eb2f
+run_name: wise-mink-810
+run_uuid: ccd19d4bfb69407b8ad915178c40eb2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779643720838
+status: 3
+tags: []
+user_id: sudhi

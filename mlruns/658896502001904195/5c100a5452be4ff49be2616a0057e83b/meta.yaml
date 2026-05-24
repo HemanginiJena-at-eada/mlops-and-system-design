@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/658896502001904195/5c100a5452be4ff49be2616a0057e83b/artifacts
+deleted_time: 1779644220649
 end_time: 1779217875690
 entry_point_name: ''
 experiment_id: '658896502001904195'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5c100a5452be4ff49be2616a0057e83b
 run_name: salty-boar-495
 run_uuid: 5c100a5452be4ff49be2616a0057e83b

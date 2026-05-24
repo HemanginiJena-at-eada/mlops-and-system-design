@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/658896502001904195/0724e4af79e449fd82ee7c2d95237c13/artifacts
+deleted_time: 1779644220641
+end_time: 1779638906021
+entry_point_name: ''
+experiment_id: '658896502001904195'
+lifecycle_stage: deleted
+run_id: 0724e4af79e449fd82ee7c2d95237c13
+run_name: traveling-skunk-285
+run_uuid: 0724e4af79e449fd82ee7c2d95237c13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779638895666
+status: 3
+tags: []
+user_id: sudhi

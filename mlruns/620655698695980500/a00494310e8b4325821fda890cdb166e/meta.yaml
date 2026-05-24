@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/620655698695980500/a00494310e8b4325821fda890cdb166e/artifacts
+end_time: 1779644141719
+entry_point_name: ''
+experiment_id: '620655698695980500'
+lifecycle_stage: active
+run_id: a00494310e8b4325821fda890cdb166e
+run_name: thoughtful-croc-679
+run_uuid: a00494310e8b4325821fda890cdb166e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779644132439
+status: 3
+tags: []
+user_id: sudhi

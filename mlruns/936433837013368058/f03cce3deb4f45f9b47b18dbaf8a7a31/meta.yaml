@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/936433837013368058/f03cce3deb4f45f9b47b18dbaf8a7a31/artifacts
+end_time: 1779638428123
+entry_point_name: ''
+experiment_id: '936433837013368058'
+lifecycle_stage: active
+run_id: f03cce3deb4f45f9b47b18dbaf8a7a31
+run_name: magnificent-bat-49
+run_uuid: f03cce3deb4f45f9b47b18dbaf8a7a31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779638415594
+status: 3
+tags: []
+user_id: sudhi
