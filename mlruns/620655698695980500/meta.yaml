@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/620655698695980500
+creation_time: 1779209092380
+experiment_id: '620655698695980500'
+last_update_time: 1779209092380
+lifecycle_stage: active
+name: LR Experiment - Serving

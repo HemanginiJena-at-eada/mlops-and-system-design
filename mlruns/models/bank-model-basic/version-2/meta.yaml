@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1779209106670
+current_stage: None
+description: ''
+last_updated_timestamp: 1779209106670
+name: bank-model-basic
+run_id: f1d08f06a7864b2b8ea16fa05aec0fe9
+run_link: ''
+source: mlflow-artifacts:/620655698695980500/f1d08f06a7864b2b8ea16fa05aec0fe9/artifacts/bank_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/620655698695980500/f1d08f06a7864b2b8ea16fa05aec0fe9/artifacts/bank_model
+user_id: null
+version: 2

@@ -1,0 +1,55 @@
+artifact_path: bank_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 4535928
+model_uuid: 7b72dd71bc2b4f76966c2946d04cfcc0
+prompts: null
+run_id: f1d08f06a7864b2b8ea16fa05aec0fe9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "long", "name":
+    "default", "required": true}, {"type": "long", "name": "balance", "required":
+    true}, {"type": "long", "name": "housing", "required": true}, {"type": "long",
+    "name": "loan", "required": true}, {"type": "long", "name": "day", "required":
+    true}, {"type": "long", "name": "month", "required": true}, {"type": "long", "name":
+    "duration", "required": true}, {"type": "long", "name": "campaign", "required":
+    true}, {"type": "long", "name": "pdays", "required": true}, {"type": "long", "name":
+    "previous", "required": true}, {"type": "double", "name": "marital_married", "required":
+    true}, {"type": "double", "name": "marital_single", "required": true}, {"type":
+    "double", "name": "job_blue-collar", "required": true}, {"type": "double", "name":
+    "job_entrepreneur", "required": true}, {"type": "double", "name": "job_housemaid",
+    "required": true}, {"type": "double", "name": "job_management", "required": true},
+    {"type": "double", "name": "job_retired", "required": true}, {"type": "double",
+    "name": "job_self-employed", "required": true}, {"type": "double", "name": "job_services",
+    "required": true}, {"type": "double", "name": "job_student", "required": true},
+    {"type": "double", "name": "job_technician", "required": true}, {"type": "double",
+    "name": "job_unemployed", "required": true}, {"type": "double", "name": "job_unknown",
+    "required": true}, {"type": "double", "name": "education_secondary", "required":
+    true}, {"type": "double", "name": "education_tertiary", "required": true}, {"type":
+    "double", "name": "education_unknown", "required": true}, {"type": "double", "name":
+    "poutcome_other", "required": true}, {"type": "double", "name": "poutcome_success",
+    "required": true}, {"type": "double", "name": "poutcome_unknown", "required":
+    true}, {"type": "double", "name": "contact_telephone", "required": true}, {"type":
+    "double", "name": "contact_unknown", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-19 16:44:53.622906'
