@@ -31,13 +31,13 @@ jobs:
 
       # Run main.py
       - name: Run main.py
-        run: python session_4/main.py
+        run: python Session4_class/main.py
 
       # Commit and push the model back to the repository
       - name: Save the model
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add session_4/models/* 
+          git add Session4_class/models/* 
           git commit -m "Update trained model" || echo "No changes to commit"
           git push origin main

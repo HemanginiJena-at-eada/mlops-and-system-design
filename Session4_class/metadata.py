@@ -1,5 +1,5 @@
-MODELS_FOLDER = "session_4/models"
-DATASETS_FOLDER = "session_4/datasets"
+MODELS_FOLDER = "Session4_class/models"
+DATASETS_FOLDER = "C:/Users/sudhi/Downloads/MLOps/Session 1_ML/mlops-and-system-design/datasets"
 MODEL_NAME = "logistic-regression-model"
 
 COLUMNS_TO_DROP = []

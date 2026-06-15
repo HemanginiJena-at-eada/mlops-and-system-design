@@ -32,7 +32,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest session_4/tests/
+          pytest Session4_class/tests/
 
       - name: Format Python code with black
         run: |

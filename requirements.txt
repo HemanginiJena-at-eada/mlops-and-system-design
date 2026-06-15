@@ -7,5 +7,6 @@ pytest==8.3.5
 autopep8
 isort
 black==25.1.0
-requests
+requests == 2.32.3
 mlflow==2.22.0
+pytest-mock == 3.14.0
