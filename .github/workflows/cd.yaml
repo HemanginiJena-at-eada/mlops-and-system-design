@@ -25,9 +25,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install -r requirements.txt
           # Navigate into Session4_Homework to find the requirements file
           cd Session4_Homework
-          pip install -r requirements.txt
+        
 
       - name: Execute the main script
         # Update 'main.py' to the actual entry point of your pipeline script

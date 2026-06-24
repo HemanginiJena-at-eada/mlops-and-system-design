@@ -26,9 +26,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest black
+          pip install -r requirements.txt
           # Navigate into Session4_Homework to find the requirements file
           cd Session4_Homework 
-          pip install -r requirements.txt
 
       - name: Run tests with pytest
         run: |
