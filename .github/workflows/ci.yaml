@@ -26,14 +26,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest black
-          # Navigate into session_4 to find the requirements file
-          cd session_4 
           pip install -r requirements.txt
+          # Navigate into Session4_Homework to find the requirements file
+          cd Session4_Homework 
 
       - name: Run tests with pytest
         run: |
-          # Navigate into session_4 so the src imports work perfectly
-          cd session_4
+          # Navigate into Session4_Homework so the src imports work perfectly
+          cd Session4_Homework
           pytest tests/
 
       - name: Format code with black
