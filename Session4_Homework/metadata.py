@@ -1,7 +1,11 @@
+from pathlib import Path
+
+CURRENT_DIR = Path(__file__).resolve().parent
+
+DATASETS_FOLDER = CURRENT_DIR.parent / "datasets"
+
 MODELS_FOLDER = "Session4_Homework/models"
-DATASETS_FOLDER = (
-    "C:/Users/sudhi/Downloads/MLOps/Session 1_ML/mlops-and-system-design/datasets"
-)
+
 MODEL_NAME = "decision-tree-model"
 
 COLUMNS_TO_DROP = ["RowNumber", "CustomerId", "Surname"]
