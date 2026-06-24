@@ -25,11 +25,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
           pip install pytest black
+          # Navigate into session_4 to find the requirements file
+          cd session_4 
+          pip install -r requirements.txt
 
       - name: Run tests with pytest
-        run: pytest session_4/tests/
+        run: |
+          # Navigate into session_4 so the src imports work perfectly
+          cd session_4
+          pytest tests/
 
       - name: Format code with black
         run: black .
