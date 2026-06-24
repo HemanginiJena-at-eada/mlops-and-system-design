@@ -33,7 +33,7 @@ jobs:
       - name: Run tests with pytest
         run: |
           # Navigate into Session4_Homework so the src imports work perfectly
-          cd session_4
+          cd Session4_Homework
           pytest tests/
 
       - name: Format code with black
