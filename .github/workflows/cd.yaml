@@ -1,43 +1,45 @@
-name: CD Pipeline
+name: Continuous Deployment - Hemangini
 
 on:
   push:
     branches:
-      - main  # Trigger on push to the `main` branch
+      - main
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday at midnight UTC
 
 jobs:
-  deploy:
+  deployment:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Ensure the workflow has permission to push commits
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      contents: write
 
     steps:
-      # Checkout code from repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13' 
 
-      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # Navigate into session_4 to find the requirements file
+          cd session_4
           pip install -r requirements.txt
 
-      # Run main.py
-      - name: Run main.py
-        run: python Session4_class/main.py
+      - name: Execute the main script
+        # Update 'main.py' to the actual entry point of your pipeline script
+        run: python session_4/main.py 
 
-      # Commit and push the model back to the repository
-      - name: Save the model
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add Session4_class/models/* 
-          git commit -m "Update trained model" || echo "No changes to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage the directory where the model artifacts are saved
+          git add models/
+          git commit -m 'chore: generated new model' || echo "No changes to commit"
           git push origin main
