@@ -6,18 +6,18 @@ from metadata import (
     ONE_HOT_ENCODE_COLUMNS,
 )
 
-#preprocessing features
+
+# preprocessing features
 class Transformer:
     def __init__(self):
         self.drop_columns = COLUMNS_TO_DROP
         self.binary_variable_columns = BINARY_FEATURES
         self.one_hot_encoding_columns = ONE_HOT_ENCODE_COLUMNS
 
-
     def transform(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df.drop(self.drop_columns, axis=1)
         df = self._one_hot_encoding(df)
-        
+
         return df
 
     def _one_hot_encoding(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -31,7 +31,8 @@ class Transformer:
 
         return df
 
-#balance the dataset
+
+# balance the dataset
 def balance_dataset(df: pd.DataFrame, target: str) -> pd.DataFrame:
     # Separate the classes
     df_y0 = df[df[target] == 0]
